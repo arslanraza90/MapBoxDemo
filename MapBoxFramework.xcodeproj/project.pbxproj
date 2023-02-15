@@ -11,6 +11,7 @@
 		5C056B1D8F7B925D3AE7935F /* Pods_MapBoxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2548017122C3587E89674590 /* Pods_MapBoxFramework.framework */; };
 		A876F5AC299CFAA200E72D37 /* CustomDayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876F5AB299CFAA200E72D37 /* CustomDayStyle.swift */; };
 		A876F5AE299CFAB500E72D37 /* CustomNightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876F5AD299CFAB500E72D37 /* CustomNightStyle.swift */; };
+		A876F5BA299D785100E72D37 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876F5B9299D785100E72D37 /* Package.swift */; };
 		A88B5EE0299516FB0096FF88 /* MapBoxFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = A88B5EDF299516FB0096FF88 /* MapBoxFramework.docc */; };
 		A88B5EE6299516FB0096FF88 /* MapBoxFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88B5EDB299516FB0096FF88 /* MapBoxFramework.framework */; };
 		A88B5EEB299516FB0096FF88 /* MapBoxFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88B5EEA299516FB0096FF88 /* MapBoxFrameworkTests.swift */; };
@@ -35,6 +36,7 @@
 		A876F5AB299CFAA200E72D37 /* CustomDayStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDayStyle.swift; sourceTree = "<group>"; };
 		A876F5AD299CFAB500E72D37 /* CustomNightStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNightStyle.swift; sourceTree = "<group>"; };
 		A876F5B2299D339B00E72D37 /* MapBoxSwift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MapBoxSwift; sourceTree = "<group>"; };
+		A876F5B9299D785100E72D37 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		A88B5EDB299516FB0096FF88 /* MapBoxFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapBoxFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88B5EDE299516FB0096FF88 /* MapBoxFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapBoxFramework.h; sourceTree = "<group>"; };
 		A88B5EDF299516FB0096FF88 /* MapBoxFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MapBoxFramework.docc; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		A88B5ED1299516FB0096FF88 = {
 			isa = PBXGroup;
 			children = (
+				A876F5B9299D785100E72D37 /* Package.swift */,
 				A876F5B2299D339B00E72D37 /* MapBoxSwift */,
 				A88B5EDD299516FB0096FF88 /* MapBoxFramework */,
 				A88B5EE9299516FB0096FF88 /* MapBoxFrameworkTests */,
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88B5EE0299516FB0096FF88 /* MapBoxFramework.docc in Sources */,
+				A876F5BA299D785100E72D37 /* Package.swift in Sources */,
 				A876F5AC299CFAA200E72D37 /* CustomDayStyle.swift in Sources */,
 				A88B5EF6299517600096FF88 /* mapboxViewController.swift in Sources */,
 				A876F5AE299CFAB500E72D37 /* CustomNightStyle.swift in Sources */,
